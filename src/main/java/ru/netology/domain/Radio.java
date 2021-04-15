@@ -79,6 +79,7 @@ public class Radio {
         int increaseStation = getCurrentStation() + 1;
         setCurrentStation(increaseStation);
     }
+
     public void decreaseCurrentStation() {
         int decreaseStation = getCurrentStation() - 1;
         setCurrentStation(decreaseStation);
@@ -88,39 +89,49 @@ public class Radio {
         int increaseVolume = getCurrentVolume() + 1;
         setCurrentVolume(increaseVolume);
     }
+
     public void decreaseCurrentVolume() {
         int decreaseVolume = getCurrentVolume() - 1;
         setCurrentVolume(decreaseVolume);
     }
 
-    public void firstStation () {
+    public void firstStation() {
         setCurrentStation(0);
     }
-    public void secondStation () {
+
+    public void secondStation() {
         setCurrentStation(1);
     }
-    public void thirdStation () {
+
+    public void thirdStation() {
         setCurrentStation(2);
     }
-    public void fourthStation () {
+
+    public void fourthStation() {
         setCurrentStation(3);
     }
-    public void fifthStation () {
+
+    public void fifthStation() {
         setCurrentStation(4);
     }
-    public void sixthStation () {
+
+    public void sixthStation() {
         setCurrentStation(5);
     }
-    public void seventhStation () {
+
+    public void seventhStation() {
         setCurrentStation(6);
     }
-    public void eighthStation () {
+
+    public void eighthStation() {
         setCurrentStation(7);
     }
-    public void ninthStation () {
+
+    public void ninthStation() {
         setCurrentStation(8);
     }
-    public void tenthStation () {
+
+    public void tenthStation() {
         setCurrentStation(9);
     }
 
