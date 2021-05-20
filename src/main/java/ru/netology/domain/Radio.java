@@ -26,7 +26,6 @@ public class Radio {
     }
 
     public int getMaxStation() {
-        maxStation = 9;
         return maxStation;
     }
 
@@ -35,7 +34,6 @@ public class Radio {
     }
 
     public int getMinStation() {
-        minStation = 0;
         return minStation;
     }
 
@@ -58,7 +56,6 @@ public class Radio {
     }
 
     public int getMaxVolume() {
-        maxVolume = 10;
         return maxVolume;
     }
 
@@ -67,7 +64,6 @@ public class Radio {
     }
 
     public int getMinVolume() {
-        minVolume = 0;
         return minVolume;
     }
 
@@ -95,44 +91,6 @@ public class Radio {
         setCurrentVolume(decreaseVolume);
     }
 
-    public void firstStation() {
-        setCurrentStation(0);
-    }
 
-    public void secondStation() {
-        setCurrentStation(1);
-    }
-
-    public void thirdStation() {
-        setCurrentStation(2);
-    }
-
-    public void fourthStation() {
-        setCurrentStation(3);
-    }
-
-    public void fifthStation() {
-        setCurrentStation(4);
-    }
-
-    public void sixthStation() {
-        setCurrentStation(5);
-    }
-
-    public void seventhStation() {
-        setCurrentStation(6);
-    }
-
-    public void eighthStation() {
-        setCurrentStation(7);
-    }
-
-    public void ninthStation() {
-        setCurrentStation(8);
-    }
-
-    public void tenthStation() {
-        setCurrentStation(9);
-    }
 
 }
